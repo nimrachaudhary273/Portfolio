@@ -9,6 +9,43 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 </head>
+  <style>    .marquee{
+    width:100%;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.marquee-track{
+    display:flex;
+    width:max-content;
+    animation: marquee 50s linear infinite;
+}
+
+.marquee-track .marquee-item{
+        font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #EB5542;
+    padding: 0 30px;
+    display: inline-flex;
+    align-items: center;
+    font-family: "Jost", Sans-serif;
+}
+.marquee-item::after {
+    content: '✦';
+    font-size: 12px;
+    margin-left: 45px;
+}
+
+@keyframes marquee{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
+}</style>
 <body>
 
 <header class="site">
@@ -77,7 +114,28 @@
 </section>
 
 <hr class="rule" />
-
+<section>
+<div class="marquee">
+    <div class="marquee-track">
+        <span class="marquee-item">HTML5
+        </span>
+       <span class="marquee-item">CSS3
+        </span>
+        <span class="marquee-item">JavaScript
+        </span>
+     <span class="marquee-item">Responsive Web Design
+        </span>
+          <span class="marquee-item">Bootstrap
+        </span>
+     <span class="marquee-item">Tailwind CSS
+        </span>
+      <span class="marquee-item">WordPress
+        </span>
+        <span class="marquee-item">Figma to Code
+        </span>
+      
+    </div>
+</div></section>
 <section id="about">
   <div class="wrap">
     <div class="about-grid reveal">
