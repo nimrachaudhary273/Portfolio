@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,4 +14,545 @@
   <body>
     <div id="root"></div>
   </body>
+=======
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nimra Chaudhary — Frontend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+  <style>  
+    .marquee-div{
+      padding:20px 0px;
+      background:#fff;
+        }
+    .marquee{
+    width:100%;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.marquee-track{
+    display: flex;
+    width:max-content;
+    animation: marquee 50s linear infinite;
+}
+
+.marquee-track .marquee-item{
+        font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #da8d00;
+    padding: 0 30px;
+    display: inline-flex;
+    align-items: center;
+    font-family: "Jost", Sans-serif;
+}
+.marquee-item::after {
+    content: '✦';
+    font-size: 12px;
+    margin-left: 45px;
+}
+
+@keyframes marquee{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
+}</style>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="brand">&lt;/&gt; <span>Nimra</span></a>
+    <nav class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="glow-orb one"></div>
+  <div class="glow-orb two"></div>
+  <div class="wrap">
+    <div>
+      <div class="hero-avatar-row hero-in d1">
+        <img src="/images/photo-nimra.png" alt="Nimra Chaudhary" class="hero-avatar" />
+        <span>available for freelance &amp; full-time work</span>
+      </div>
+      <p class="kicker hero-in d1">frontend developer</p>
+      <h1 class="display hero-in d2">Hi, I'm <em>Nimra</em></h1>
+      <p class="role hero-in d3"><span class="role-text">Frontend Developer</span><span class="cursor"></span></p>
+      <p class="lede hero-in d4">I turn Figma and Adobe XD designs into responsive, production-ready interfaces — then debug them until every state, breakpoint, and browser agrees.</p>
+      <div class="cta-row hero-in d5">
+        <a href="#experience" class="btn btn-solid">My experience</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
+      </div>
+      <div class="contact-line hero-in d6">
+        <span>Bahawalpur, Pakistan</span>
+        <span>nimrachaudhary273@gmail.com</span>
+        <span>+92 313 6964787</span>
+      </div>
+    </div>
+    
+    <div class="about-photo">
+        <img src="/images/photo-nimra.png" alt="Nimra Chaudhary" />
+      </div>
+  </div>
+</section>
+
+<hr class="rule" />
+  <div class="marquee-div">
+<div class="marquee">
+    <div class="marquee-track">
+        <span class="marquee-item">HTML5
+        </span>
+       <span class="marquee-item">CSS3
+        </span>
+        <span class="marquee-item">JavaScript
+        </span>
+     <span class="marquee-item">Responsive Web Design
+        </span>
+          <span class="marquee-item">Bootstrap
+        </span>
+     <span class="marquee-item">Tailwind CSS
+        </span>
+      <span class="marquee-item">WordPress
+        </span>
+        <span class="marquee-item">Figma to Code
+        </span>
+    </div>
+    </div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid reveal">
+      <div class="compare hero-in d3" id="compare">
+
+        <!-- CODE SIDE -->
+        <div class="layer code">
+       <div class="mock-code">
+
+  <div class="code-top">
+    <span class="code-dot"></span>
+    <span class="code-dot"></span>
+    <span class="code-dot"></span>
+    <span class="code-file">cnc-hero.html</span>
+  </div>
+
+  <div class="code-content">
+
+    
+      <span class="c-tag">&lt;section</span></br>
+      <span class="c-attr">class</span>=<span class="c-string">"cnc-hero"</span><span class="c-tag">&gt;</span>
+  </br>
+     <span class="c-tag">&lt;div</span>
+      <span class="c-attr">class</span>=<span class="c-string">"cnc-overlay"</span><span class="c-tag">&gt;&lt;/div&gt;</span>
+   </br>
+    <span class="c-tag">&lt;div</span>
+      <span class="c-attr">class</span>=<span class="c-string">"cnc-container"</span><span class="c-tag">&gt;</span>
+
+  </br>
+    <span class="c-tag">&lt;div</span>
+      <span class="c-attr">class</span>=<span class="c-string">"cnc-content"</span><span class="c-tag">&gt;</span>
+    </br>
+     <span class="c-tag">&lt;span</span>
+      <span class="c-attr">class</span>=<span class="c-string">"cnc-eyebrow"</span><span class="c-tag">&gt;</span>
+   </br>
+     CNC METAL MACHINING
+   
+    <span class="c-tag">&lt;/span&gt;</span>
+    </br>
+<span class="c-tag">&lt;h1&gt;</span>
+   
+   PROFESSIONAL CNC METAL
+
+     <span class="c-tag">&lt;br&gt;</span>
+      MACHINING AND WELDING
+  
+      <span class="c-tag">&lt;/h1&gt;</span>
+   
+   <span class="c-tag">&lt;div</span>
+      <span class="c-attr">class</span>=<span class="c-string">"cnc-actions"</span><span class="c-tag">&gt;</span>
+   
+     <span class="c-tag">&lt;a</span>
+      <span class="c-attr">href</span>=<span class="c-string">"#contact"</span>
+    
+<span class="c-attr">class</span>=<span class="c-string">"cnc-btn"</span><span class="c-tag">&gt;</span>
+    </br>
+    ASK FOR A QUICK QUOTE
+   
+     <span class="c-tag">&lt;/a&gt;</span>
+   
+      <span class="c-tag">&lt;/div&gt;</span>
+    
+     <span class="c-tag">&lt;/div&gt;</span>
+    
+      <span class="c-tag">&lt;/div&gt;</span>
+    
+      <span class="c-tag">&lt;/section&gt;</span>
+    
+  </div>
+</div>
+        </div>
+
+
+        <!-- FIGMA SIDE -->
+        <div class="layer design">
+          <div class="mock-design">
+
+            <img
+              src="images/project-femet.png"
+              alt="Figma UI Design"
+              class="figma-preview"
+            >
+
+            <!-- <div class="figma-overlay"></div>
+
+            <div class="figma-content">
+              <span class="figma-small">Featured Project</span>
+
+              <h3>Creative Website</h3>
+
+              <p>UI / Frontend Development</p>
+
+              <button type="button">View Project</button>
+            </div> -->
+
+          </div>
+        </div>
+
+
+        <!-- SLIDER HANDLE -->
+        <div class="compare-handle">
+          <span>&#8646;</span>
+        </div>
+
+        <!-- LABELS -->
+        <div class="compare-label left">Figma</div>
+        <div class="compare-label right">Code</div>
+
+      </div>
+
+      <div class="about-copy">
+
+        <p class="kicker">01 — About my Design</p>
+
+        <h2 class="section-title">
+          From Design<br>
+          to <span>Code.</span>
+        </h2>
+
+        <p>
+          I’m a frontend developer focused on turning Figma and Adobe XD
+          designs into clean, responsive, and pixel-accurate web experiences.
+          I work with HTML, CSS, and JavaScript to build interfaces that stay
+          true to the original design while performing smoothly across
+          different screen sizes.
+        </p>
+
+        <p>
+          Beyond matching the visuals, I pay attention to the details that
+          make a website feel complete — responsive layouts, smooth
+          interactions, accessibility, browser compatibility, and
+          maintainable code. I also work with WordPress, Bootstrap, and
+          Tailwind CSS to build practical, production-ready websites.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">02 — projects</p>
+      <h2 class="section-title">Selected work</h2>
+      <p class="section-sub">Frontend and full-site work delivered for clients across industries. Open a project for the full breakdown.</p>
+    </div>
+    <div class="carousel reveal">
+      <button class="car-btn prev" id="projPrev" aria-label="Previous project">&larr;</button>
+      <div class="carousel-viewport">
+        <div class="carousel-track" id="projTrack">
+      <a href="project-soveralgn.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-soveralgn.png" alt="SoverAlgn Solutions" /></div>
+        <div class="project-body">
+          <p class="project-index">01</p>
+          <h3>SoverAlgn Solutions</h3>
+          <p>Landing page hero for an enterprise AI platform.</p>
+        </div>
+      </a>
+      <a href="project-soveraign.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-soveraign.png" alt="Soveraign Solutions Inc." /></div>
+        <div class="project-body">
+          <p class="project-index">02</p>
+          <h3>Soveraign Solutions Inc.</h3>
+          <p>IT modernization and AI-readiness homepage.</p>
+        </div>
+      </a>
+      <a href="project-murray.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-murray.png" alt="Murray Family Reunion" /></div>
+        <div class="project-body">
+          <p class="project-index">03</p>
+          <h3>Murray Family Reunion</h3>
+          <p>Event microsite keeping a family connected across reunions.</p>
+        </div>
+      </a>
+      <a href="project-worldlink.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-worldlink.png" alt="WorldLink Team" /></div>
+        <div class="project-body">
+          <p class="project-index">04</p>
+          <h3>WorldLink Team</h3>
+          <p>Marketing site for a telecom reseller network.</p>
+        </div>
+      </a>
+      <a href="project-femet.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-femet.png" alt="Femet" /></div>
+        <div class="project-body">
+          <p class="project-index">05</p>
+          <h3>Femet</h3>
+          <p>Industrial homepage for a CNC machining and welding company.</p>
+        </div>
+      </a>
+      <a href="project-phonemax.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-phonemax.png" alt="Phone Max" /></div>
+        <div class="project-body">
+          <p class="project-index">06</p>
+          <h3>Phone Max</h3>
+          <p>E-commerce and booking site for a local phone repair shop.</p>
+        </div>
+      </a>
+      <a href="project-oneclickbranding.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-oneclick-usa.png" alt="One Click Branding" /></div>
+        <div class="project-body">
+          <p class="project-index">07</p>
+          <h3>One Click Branding</h3>
+          <p>Two regional storefronts for a printing and branding company.</p>
+        </div>
+      </a>
+      <a href="project-garycochran.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-garycochran.png" alt="Gary G. Cochran" /></div>
+        <div class="project-body">
+          <p class="project-index">08</p>
+          <h3>Gary G. Cochran</h3>
+          <p>Author landing page for a thriller novelist.</p>
+        </div>
+      </a>
+      <a href="project-gilcom.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-gilcom.png" alt="GilCom Media" /></div>
+        <div class="project-body">
+          <p class="project-index">09</p>
+          <h3>GilCom Media</h3>
+          <p>Corporate homepage for a crisis-communications firm.</p>
+        </div>
+      </a>
+      <a href="project-qmlogics.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-qmlogics-v2.png" alt="QM Logics" /></div>
+        <div class="project-body">
+          <p class="project-index">10</p>
+          <h3>QM Logics</h3>
+          <p>Homepage redesign for my current employer.</p>
+        </div>
+      </a>
+      <a href="project-aurelle.html" class="project-card">
+        <div class="project-shot"><div class="dot-row"><i></i><i></i><i></i></div><img src="/images/project-aurelle.png" alt="Aurelle" /></div>
+        <div class="project-body">
+          <p class="project-index">11</p>
+          <h3>Aurelle</h3>
+          <p>Luxury jewelry landing page for the Celeste Collection.</p>
+        </div>
+      </a>
+        </div>
+      </div>
+      <button class="car-btn next" id="projNext" aria-label="Next project">&rarr;</button>
+    </div>
+    <div class="carousel-dots" id="projDots"></div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="testimonials">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">03 — testimonials</p>
+      <h2 class="section-title">What people say</h2>
+      <p class="section-sub">Placeholder quotes — swap in real feedback from clients or teammates when you have it.</p>
+    </div>
+    <div class="testi-grid reveal">
+      <div class="testi-card">
+        <p class="testi-quote">Nimra took a rough Figma file and shipped it pixel-for-pixel, including states we hadn't even designed yet — like empty and error.</p>
+        <div class="testi-person">
+          <div class="testi-avatar">PM</div>
+          <div>
+            <p class="testi-name">Placeholder Name</p>
+            <p class="testi-role">Product Manager, QM Logics</p>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-quote">Fast, communicative, and she catches responsive bugs before QA does. That's rare.</p>
+        <div class="testi-person">
+          <div class="testi-avatar">DL</div>
+          <div>
+            <p class="testi-name">Placeholder Name</p>
+            <p class="testi-role">Design Lead, Client Project</p>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-quote">She turned a static homepage into something that actually reflected how modern our platform is. Clients noticed immediately.</p>
+        <div class="testi-person">
+          <div class="testi-avatar">CO</div>
+          <div>
+            <p class="testi-name">Placeholder Name</p>
+            <p class="testi-role">Founder, Soveraign Solutions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">04 — experience</p>
+      <h2 class="section-title">From the classroom to the codebase</h2>
+    </div>
+    <div class="term reveal">
+      <div class="term-bar"><i></i><i></i><i></i></div>
+      <div class="term-body">
+        <div class="job">
+          <p class="job-meta">2025 — Present</p>
+          <h3>Frontend Developer</h3>
+          <p class="company">QM Logics</p>
+          <ul>
+            <li>Develop and maintain responsive, user-friendly web interfaces using HTML, CSS, and JavaScript.</li>
+            <li>Translate UI/UX designs from Figma and Adobe XD into high-quality, pixel-focused implementations.</li>
+            <li>Debug and resolve UI issues to improve functionality, consistency, and user experience.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <p class="job-meta">2023 — 2025</p>
+          <h3>Teacher</h3>
+          <p class="company">Foundation Public School</p>
+          <ul>
+            <li>Planned and delivered curriculum-aligned lessons for students with diverse learning needs.</li>
+            <li>Maintained a positive, disciplined, and inclusive classroom environment.</li>
+            <li>Used modern teaching methods and teaching aids to support student understanding.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="education">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">05 — education</p>
+      <h2 class="section-title">Formal study, hands-on training</h2>
+    </div>
+    <div class="edu-grid reveal">
+      <div class="edu-card">
+        <p class="edu-year">2019 — 2022</p>
+        <h3>Intermediate</h3>
+        <p>Government Graduate College Women</p>
+      </div>
+      <div class="edu-card">
+        <p class="edu-year">2024 — 2025</p>
+        <h3>Web Development and Designing</h3>
+        <p>Tech Hub Institute, Bahawalpur</p>
+      </div>
+      <div class="edu-card">
+        <p class="edu-year">2025</p>
+        <h3>Advanced Web Development</h3>
+        <p>Vocational Training Institute, Bahawalpur</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid reveal">
+      <div>
+        <h4>contact</h4>
+        <div class="foot-item">
+          <span class="label">Email</span>
+          <span class="val">nimrachaudhary273@gmail.com</span>
+        </div>
+        <div class="foot-item">
+          <span class="label">Phone</span>
+          <span class="val">+92 313 6964787</span>
+        </div>
+        <div class="foot-item">
+          <span class="label">Location</span>
+          <span class="val">Bahawalpur, Pakistan</span>
+        </div>
+        <div class="foot-item">
+          <span class="label">Languages</span>
+          <span class="val">English — Intermediate · Urdu — Fluent · Punjabi — Fluent</span>
+        </div>
+      </div>
+      <div>
+        <h4>quick links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>send a message</h4>
+        <p style="margin:0 0 16px;color:#CBD6E8;font-size:14.5px;">Open to frontend roles and freelance work.</p>
+        <form class="msg" onsubmit="event.preventDefault(); alert('Thanks — this form is a static template, connect it to a form service (e.g. Formspree) to receive messages.');">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Your email" required />
+          <select>
+            <option>What's this about?</option>
+            <option>Freelance project</option>
+            <option>Job opportunity</option>
+            <option>Just saying hi</option>
+          </select>
+          <textarea placeholder="Your message" required></textarea>
+          <button type="submit" class="btn-gold">Send message</button>
+        </form>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Nimra Chaudhary</span>
+      <span>Built with HTML &amp; CSS</span>
+    </div>
+  </div>
+</footer>
+
+<script src="animations.js"></script>
+</body>
+>>>>>>> 349b735 (Update portfolio content and design)
 </html>
